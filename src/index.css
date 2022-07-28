@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Volkhov:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply absolute left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 block w-[178px] py-[14px] px-[28px] rounded-[5px] bg-crusta text-white-lilac font-medium;
+    }
+}
+
+body {
+    background: #FEFCFB;
+}
+
+.hidden {
+    display: none;
+}
+
+.mySwiper {
+    width: 1140px !important;
+}
+
+.swiper-slide {
+    width: 300px !important;
+}
+
+.mySwiperTestimonial {
+    width: 541px !important;
+    height: 310px !important;
+}
+
+.mySwiperTestimonial .swiper-slide-active {
+    margin-top: 2rem;
+}
